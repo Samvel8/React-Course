@@ -1,25 +1,14 @@
-import Login from './login';
+import Card from './components/card';
+import Button from './components/button';
 
 function App () {
     return (
         <div>
-            <Login 
-                title="Login Form"
-                list={['free doamin']}
-            
-            />
+            <Card title="Dell"/>
             <hr/>
-            <Login 
-                title="Register Form"
-                list={[
-                    'free doamin',
-                    'free hosting',
-                    'SSL key',
-                ]}
-            />
+            <Button value="Add Card"/>
         </div>
     )
 };
-
 
 export default App;
